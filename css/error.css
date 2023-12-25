@@ -1,0 +1,89 @@
+/* Start Variables */
+:root {
+    --main-color: #ff0000 ;
+    --main-color-alt: #000000 ;
+    --section-background: #f7f7f7;
+    --text-color: #868e96 ;
+    --header-background: #ffffff ;
+    --header-text: #000000 ;
+    --main-transition: 0.4s;
+    --main-padding-top:100px;
+    --main-padding-bottom:100px;
+}
+
+
+.error {
+    padding-top: var(--main-padding-top) ;
+    padding-bottom: 50px;
+    background-color: var(--section-background);
+}
+.error .container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.error .container h1{
+    font-size: 140px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.error .container h1 i {
+    color: var(--main-color);
+    padding: 0 3px;
+}
+.error .container h3{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.error .container p {
+    line-height: 1.4;
+    font-size: 15px;
+    color: var(--text-color);
+    text-align: center;
+    padding-bottom: 30px;
+}
+.error .container form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 500px;
+    max-width: 100%;
+    padding-bottom: 50px;
+}
+.error .container form input[type="text"] {
+    border: 1px solid #c5c5c5;
+    border-right: none;
+    background-color: var(--header-background);
+    padding: 20px;
+    caret-color: var(--main-color);
+    width: calc(100% - 130px);
+}
+.error .container form input[type="text"]:focus {
+    border: 2px solid var(--main-color);
+    outline: none;
+}
+.error .container form input[type="submit"] {
+    width: 130px;
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid var(--main-color);
+    border-left: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.error .container a {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--main-color-alt);
+    transition: var(--main-transition);
+}
+.error .container a:hover {
+    color: var(--main-color);
+}
+.error .container a i {
+    padding-right: 10px;
+    font-weight: 900;
+}

@@ -1,0 +1,197 @@
+/* Start Variables */
+:root {
+    --main-color: #ff0000 ;
+    --main-color-alt: #000000 ;
+    --section-background: #f7f7f7;
+    --text-color: #868e96 ;
+    --header-background: #ffffff ;
+    --header-text: #000000 ;
+    --main-transition: 0.4s;
+    --main-padding-top:100px;
+    --main-padding-bottom:100px;
+}
+/* End Variables */
+header.sticky .container .box ul li .actve {
+    color: var(--header-text);
+}
+header.sticky .container .box ul li .contact {
+    color: var(--main-color);
+}
+.landing-22 {
+    background-image: url(../images/landing-for-min.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 350px ;
+    position: relative;
+}
+.landing-22 .text {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    padding: 20px 40px;
+    font-size: 20px;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    background-color: #979797;
+}
+
+
+/*!   Stert Talk   */
+.talk {
+    padding-top: var(--main-padding-top);
+    padding-bottom: 70px;
+}
+.talk .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.talk .container span{
+    color: red;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.talk .container h3{
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.talk .container p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--text-color);
+    text-align: center;
+    padding: 0 25px;
+}
+/*!    End Talk   */
+
+
+
+/*!   Stert form   */
+.form {
+    padding-bottom: var(--main-padding-bottom);
+}
+.form .container form {
+    padding-bottom: 50px;
+}
+.form .container form .min{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+}
+.form .container form .min  input[type="text"]{
+    padding: 15px 20px ;
+    background-color: var(--section-background);
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.form .container form .min  input[type="text"]:focus {
+    outline: none;
+    border: 1px solid var(--main-color);
+    background: var(--header-background);
+    box-shadow: none;
+}
+.form .container form .min  input[type="email"] {
+    padding: 15px 20px ;
+    background-color: var(--section-background);
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.form .container form .min  input[type="email"]:focus {
+    outline: none;
+    border: 1px solid var(--main-color);
+    background: var(--header-background);
+    box-shadow: none;
+}
+.form .container form textarea {
+    padding: 15px 20px ;
+    width: 100%;
+    background-color: var(--section-background);
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.form .container form textarea:focus {
+    outline: none;
+    border: 1px solid var(--main-color);
+    background: var(--header-background);
+    box-shadow: none;
+}
+.form .container .aa {
+    color: white;
+    background-color: var(--main-color);
+    font-size: 17px;
+    font-weight: 700;
+    width: fit-content;
+    padding: 18px 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    display: flex;
+}
+/*!    End form   */
+
+
+
+/*!   Stert Find   */
+.find {
+    padding-bottom: 50px;
+}
+.find .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 60px;
+}
+.find .container .us span{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+}
+.find .container .us h4{
+    color: var(--main-color-alt);
+    padding-bottom: 35px;
+    padding-top: 12px;
+    font-size: 24px;
+}
+.find .container .us .find .all{
+    display: flex;
+    gap: 12px;
+    padding-bottom: 30px;
+}
+.find .container .us .find .all i {
+    color: var(--main-color);
+    padding-top: 6px;
+    font-size: 20px;
+}
+.find .container .us .find .all .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.find .container .us .find .all .text h6{
+    color: var(--main-color-alt);
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.find .container .us .find .all .text span{
+    color: var(--text-color);
+    font-size: 17px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+/*!    End Find   */
+
+
+
+/*!   Stert map   */
+.map iframe {
+    width: 100%;
+}
+/*!    End map   */

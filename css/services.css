@@ -1,0 +1,248 @@
+/* Start Variables */
+:root {
+    --main-color: #ff0000 ;
+    --main-color-alt: #000000 ;
+    --section-background: #f7f7f7;
+    --text-color: #868e96 ;
+    --header-background: #ffffff ;
+    --header-text: #000000 ;
+    --main-transition: 0.4s;
+    --main-padding-top:100px;
+    --main-padding-bottom:100px;
+}
+/* End Variables */
+header.sticky .container .box ul li .actve {
+    color: var(--header-text);
+}
+header.sticky .container .box ul li .Pages {
+    color: var(--main-color);
+}
+.landing-22 {
+    background-image: url(../images/landing-for-min.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 350px ;
+    position: relative;
+}
+.landing-22 .text {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    padding: 20px 40px;
+    font-size: 20px;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    background-color: #979797;
+}
+
+
+/*!  Stert  teamwork  */
+.teamwork {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+}
+.teamwork .container {
+    display: flex;
+    gap: 50px;
+}
+.teamwork .container .text {
+    width: 50%;
+}
+.teamwork .container .text span {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 17px ;
+    padding-bottom: 30px;
+}
+.teamwork .container .text h5 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.teamwork .container .text p {
+    color: var(--text-color);
+    line-height: 1.6;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.teamwork .container .text .last{
+    margin-bottom: 35px;
+}
+.teamwork .container .text a {
+    padding: 15px 20px;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 15px ;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.teamwork .container .imgg {
+    width: 50%;
+}
+.teamwork .container .imgg img{
+    width: 100%;
+    border-radius: 10px;
+}
+/*!   End  teamwork  */
+
+
+
+/*!  Stert  Nulla  */
+.nulla {
+    background-image: url(../images/nulla--1.jpg);
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.nulla::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0 ;
+    left: 0;
+    background-color: hsla(0, 0%, 0%, 60%);
+    z-index: 5;
+}
+.nulla .container {
+    display: flex;
+}
+.nulla .container .box {
+    width: 50%;
+    z-index: 10 ;
+}
+.nulla .container span {
+    font-weight: 700;
+    color: var(--main-color);
+    font-size: 16px;
+}
+.nulla .container h5 {
+    color: white;
+    font-size: 30px;
+    padding: 15px 0 30px;
+}
+.nulla .container p {
+    color: #e2e2e2;
+    line-height: 1.6;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+.nulla .container .a-1{
+    display: flex;
+    gap: 30px;
+}
+.nulla .container .a-1 .a1{
+    color: var(--main-color);
+    background-color: white;
+    border: 1px solid white;
+    padding: 15px 25px ;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: var(--main-transition);
+}
+.nulla .container .a-1 .a1:hover {
+    background-color: var(--main-color);
+    color: white;
+    border-color: var(--main-color);
+}
+.nulla .container .a-1 .a2{  
+    color: white;
+    border: 1px solid white;
+    padding: 15px 25px ;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: var(--main-transition);
+}
+.nulla .container .a-1 .a2:hover {
+    color: var(--main-color);
+    background-color: white;
+}
+/*!   End  Nulla  */
+
+
+
+/*!  Stert  Amazing  */
+.amazing {
+    padding-top: var(--main-padding-top);
+    padding-bottom: 50px ;
+    background-color: var(--section-background);
+}
+.amazing .container {
+    display: flex;
+    align-items: center;
+}
+.amazing .container .text {
+    width: 50%;
+}
+.amazing .container .text span{
+    font-weight: 700;
+    color: var(--main-color);
+    font-size: 16px;
+}
+.amazing .container .text h5{
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    line-height: 1.4;
+}
+.amazing .container .pp {
+    width: 50%;
+}
+.amazing .container .pp p {
+    color: var(--text-color);
+    line-height: 1.6;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+/*!   End  Amazing  */
+
+
+
+/*!  Stert  boxs  */
+.boxs {
+    padding-bottom: var(--main-padding-bottom);
+    background-color: var(--section-background);
+}
+.boxs .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+}
+.boxs .container .box {
+    padding: 45px;
+    background-color: var(--header-background);
+    border-radius: 10px;
+    transition: var(--main-transition);
+}
+.boxs .container .box:hover {
+    background-color: var(--main-color);
+}
+.boxs .container .box:hover i {
+    color: white;
+}
+.boxs .container .box:hover p {
+    color: white;
+}
+.boxs .container .box i{
+    font-size: 42px;
+    padding-bottom: 25px;
+    color: red;
+    transition: var(--main-transition);
+}
+.boxs .container .box h6{
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+.boxs .container .box p {
+    font-size: 14px ;
+    color: var(--text-color);
+    line-height: 1.4;
+    padding-bottom: 10px;
+}
+/*!   End  boxs  */

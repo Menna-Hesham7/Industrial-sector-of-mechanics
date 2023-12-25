@@ -1,0 +1,409 @@
+/* Start Variables */
+:root {
+    --main-color: #ff0000 ;
+    --main-color-alt: #000000 ;
+    --section-background: #f7f7f7;
+    --text-color: #868e96 ;
+    --header-background: #ffffff ;
+    --header-text: #000000 ;
+    --main-transition: 0.4s;
+    --main-padding-top:100px;
+    --main-padding-bottom:100px;
+}
+/* End Variables */
+header.sticky .container .box ul li .actve {
+    color: var(--header-text);
+}
+header.sticky .container .box ul li .about {
+    color: var(--main-color);
+}
+.landing-22 {
+    background-image: url(../images/landing-for-min.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 350px ;
+    position: relative;
+}
+.landing-22 .text {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    padding: 20px 40px;
+    font-size: 20px;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    background-color: #979797;
+}
+
+
+
+
+/*!  Stert  aboutt  */
+.aboutt {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    background-color: var(--section-background);
+}
+.aboutt .container {
+    display: flex;
+    gap: 50px;
+}
+.aboutt .container .img {
+    width: 555px;
+}
+.aboutt .container .img img {
+    width: 555px;
+    border-radius: 10px;
+}
+.aboutt .container .text span {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 17px ;
+    padding-bottom: 30px;
+}
+.aboutt .container .text h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+    line-height: 1.4;
+}
+.aboutt .container .text p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--text-color);
+    padding-bottom: 35px;
+}
+.aboutt .container .text a {
+    color: white;
+    font-size: 16px ;
+    width: fit-content ;
+    padding: 10px 20px ;
+    background-color: var(--main-color);
+    border-radius: 10px ;
+}
+/*!  End  aboutt  */
+
+
+
+
+
+/*!  Stert  Offer  */
+.Offer {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: var(--section-background);
+}
+.Offer .container {
+    display: flex ;
+    justify-content: space-between ;
+}
+.Offer .container .text {
+    width: 35%;
+}
+.Offer .container .text span {
+    color: var(--main-color);
+    font-weight: 500;
+}
+.Offer .container .text h4 {
+    padding-bottom: 12px;
+    font-size: 28px;
+    padding-top: 5px;
+}
+.Offer .container .text p {
+    font-size: 20px ;
+    color: var(--text-color);
+}
+.Offer .container .icon {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.Offer .container .icon .bag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Offer .container .icon .bag i {
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: var(--text-color);
+}
+.Offer .container .icon .bag h5 {
+    font-size: 16px;
+    color: var(--main-color);
+}
+/*!  End  Offer  */
+
+
+
+
+
+
+/*!  Stert  Third  section  */
+.Third{
+    position: relative;
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    background-image: url(../images/powerfull.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 550px;
+}
+.Third::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0 ;
+    left: 0;
+    background-color: hsla(0, 0%, 0%, 60%);
+    z-index: 5;
+}
+.Third .container .box {
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+.Third .container .box .text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+.Third .container .box .text span {
+    color: red;
+    z-index: 10;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+.Third .container .box .text h2 {
+    max-width: 420px;
+    font-size: 30px;
+    color: white;
+    z-index: 10;
+    padding-bottom: 20px;
+}
+.Third .container .box .text a {
+    padding-bottom: 150px;
+    background-color: white;
+    padding: 15px 25px;
+    color: var(--main-color);
+    width: fit-content;
+    border-radius: 8px;
+    z-index: 10;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .4s;
+}
+.Third .container .box .text a:hover {
+    background-color: var(--main-color);
+    color: white;
+}
+.Third .container .box .statistics {
+    z-index: 10;
+}
+.Third .container .box .statistics p {
+    color: #cfcfcf;
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+@media (max-width:991px){
+    .Third .container .box{
+        flex-direction: column;
+    }
+    .Third .container .box .text  {
+        align-items: center;
+    }
+    .Third .container .box .text span{
+        padding-top: 0;
+    }
+}
+/*!   End  Third  section  */
+
+
+
+
+
+
+/*!  Stert  team  */
+.team {
+    padding: 50px 0 ;
+}
+.team .container .text-1 {
+    padding: 70px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.team .container .text-1 .txx {
+    width: 50%;
+}
+.team .container .text-1 .txx span{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+.team .container .text-1 .txx h5 {
+    font-size: 32px;
+    padding-top: 18px;
+}
+.team .container .text-1 a {
+    color: white;
+    padding: 17px 20px;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.team .container .text-1 a i {
+    padding-left: 10px;
+}
+.team .container .imgs  {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 50px 0 80px ;
+}
+.team .container .imgs .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team .container .imgs .card:hover ul {
+    display: flex;
+}
+.team .container .imgs .card:hover h4 {
+    color: var(--main-color);
+}
+.team .container .imgs .card img {
+    width: 250px;
+    height: 350px;
+    position: relative;
+    border-radius: 5px ;
+}
+.team .container .imgs .card ul {
+    transform: translateY(280px);
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    display: none;
+    transition: 0.7s ;
+}
+.team .container .imgs .card ul li i  {
+    font-size: 15px;
+    padding: 13px;
+    color: white;
+    background-color: #dfdfdfbd;
+    border-radius: 50%;
+    transition: var(--main-transition);
+}
+.team .container .imgs .card ul li i:hover {
+    background-color: white;
+    color: var(--main-color);
+}
+.team .container .imgs .card h4  {
+    font-size: 22px;
+    padding: 20px 0 10px;
+    transition: var(--main-transition);
+}
+.team .container .imgs .card span {
+    color: var(--text-color);
+    font-size: 15px;
+}
+/*!   End  team  */
+
+
+
+
+
+
+
+
+
+/*!  Stert  Second  section  */
+.second {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    background-color: var(--section-background);
+}
+.second .container .box {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+.second .container .box .img{
+    overflow: hidden;
+    height: 350px;
+}
+.second .container .box .img img{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+    transition: var(--main-transition);
+}
+.second .container .box .img img:hover {
+    transform: scale(1.1);
+}
+.second .container .box .text {
+    max-width: 500px;
+}
+.second .container .box .text span {
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: bold;
+}
+.second .container .box .text h2 {
+    font-size: 40px;
+    padding: 25px 0;
+}
+.second .container .box .text p {
+    color: var(--text-color);
+    font-size: 16px ;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+.second .container .box .text ul {
+    display: flex;
+    justify-content: space-between;
+}
+.second .container .box .text .m {
+    margin-bottom: 35px;
+}
+.second .container .box .text ul li  {
+    padding-bottom: 25px;
+    font-size: 17px;
+    color: var(--text-color);
+}
+.second .container .box .text ul li i {
+    color: var(--main-color);
+    padding-right: 5px;
+}
+.second .container .box .text a {
+    padding: 15px 20px;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.second .container .box .text a:hover{
+    background-color: #880000;
+}
+@media (max-width:991px){
+    .second .container .box{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:767px){
+    .second .container .box .text h2 {
+        font-size: 30px;
+    }
+    .second .container .box .text ul {
+        flex-direction: column;
+    }
+}
+/*!   End  Second  section  */
