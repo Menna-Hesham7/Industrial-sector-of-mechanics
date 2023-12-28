@@ -487,7 +487,26 @@ footer .container .box .imgess .links ul li i:hover {
 
 
 
-
+@media ( prefers-color-scheme:light  ) {
+    :root {
+        --main-color: #ff0000 ;
+        --main-color-alt: #000000 ;
+        --section-background: #f7f7f7;
+        --text-color: #868e96 ;
+        --header-background: #ffffff ;
+        --header-text: #ffffff ;
+    }
+}
+@media ( prefers-color-scheme:dark ) {
+    :root {
+        --main-color: #ff0000 ;
+        --main-color-alt: #ffffff ;
+        --section-background: #181818;
+        --text-color: #dbdbdb ;
+        --header-background: #232020 ;
+        --header-text: #000000 ;
+    }
+}
 
 
 

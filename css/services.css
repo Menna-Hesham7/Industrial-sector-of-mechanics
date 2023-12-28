@@ -60,6 +60,7 @@ header.sticky .container .box ul li .Pages {
     font-size: 30px;
     padding-bottom: 20px;
     padding-top: 15px;
+    color: var(--main-color-alt);
 }
 .teamwork .container .text p {
     color: var(--text-color);
@@ -190,6 +191,7 @@ header.sticky .container .box ul li .Pages {
     padding-bottom: 20px;
     padding-top: 15px;
     line-height: 1.4;
+    color: var(--main-color-alt);
 }
 .amazing .container .pp {
     width: 50%;
@@ -205,44 +207,81 @@ header.sticky .container .box ul li .Pages {
 
 
 /*!  Stert  boxs  */
-.boxs {
+.boxss {
     padding-bottom: var(--main-padding-bottom);
     background-color: var(--section-background);
 }
-.boxs .container {
+.boxss .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 40px;
 }
-.boxs .container .box {
+.boxss .container .box {
     padding: 45px;
     background-color: var(--header-background);
     border-radius: 10px;
     transition: var(--main-transition);
 }
-.boxs .container .box:hover {
+.boxss .container .box:hover {
     background-color: var(--main-color);
 }
-.boxs .container .box:hover i {
+.boxss .container .box:hover i {
     color: white;
 }
-.boxs .container .box:hover p {
+.boxss .container .box:hover p {
     color: white;
 }
-.boxs .container .box i{
+.boxss .container .box i{
     font-size: 42px;
     padding-bottom: 25px;
     color: red;
     transition: var(--main-transition);
 }
-.boxs .container .box h6{
+.boxss .container .box h6{
     font-size: 23px;
     padding-bottom: 20px;
+    color: var(--main-color-alt);
 }
-.boxs .container .box p {
+.boxss .container .box p {
     font-size: 14px ;
     color: var(--text-color);
     line-height: 1.4;
     padding-bottom: 10px;
 }
 /*!   End  boxs  */
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+    .teamwork .container {
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .teamwork .container .text {
+        width: 100%;
+    }
+    .teamwork .container .imgg {
+        width: 100%;
+    }
+    .nulla .container .box {
+        width: 100%;
+    }
+    .amazing .container {
+        align-items: center;
+        flex-direction: column;
+    }
+    .amazing .container .text {
+        width: 100%;
+        text-align: center;
+    }
+    .amazing .container .pp {
+        width: 100%;
+    }
+}

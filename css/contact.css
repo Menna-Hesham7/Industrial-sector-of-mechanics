@@ -57,6 +57,7 @@ header.sticky .container .box ul li .contact {
 .talk .container h3{
     padding-bottom: 15px;
     font-size: 30px;
+    color: var(--main-color-alt);
 }
 .talk .container p {
     font-size: 18px;
@@ -188,10 +189,31 @@ header.sticky .container .box ul li .contact {
 }
 /*!    End Find   */
 
-
-
 /*!   Stert map   */
 .map iframe {
     width: 100%;
 }
 /*!    End map   */
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+    .form .container form .min {
+        display: flex;
+        flex-direction: column;
+    }
+    .find .container {
+        justify-items: center;
+        align-items: center;
+    }
+}
+@media (max-width:575px){
+    .talk .container h3 {
+        text-align: center;
+    }
+}

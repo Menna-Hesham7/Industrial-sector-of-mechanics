@@ -67,6 +67,7 @@ header.sticky .container .box ul li .about {
     font-size: 30px;
     padding-bottom: 30px;
     line-height: 1.4;
+    color: var(--main-color-alt);
 }
 .aboutt .container .text p {
     font-size: 18px;
@@ -82,6 +83,7 @@ header.sticky .container .box ul li .about {
     background-color: var(--main-color);
     border-radius: 10px ;
 }
+
 /*!  End  aboutt  */
 
 
@@ -109,6 +111,7 @@ header.sticky .container .box ul li .about {
     padding-bottom: 12px;
     font-size: 28px;
     padding-top: 5px;
+    color: var(--main-color-alt);
 }
 .Offer .container .text p {
     font-size: 20px ;
@@ -167,27 +170,27 @@ header.sticky .container .box ul li .about {
     align-items: center;
     gap: 70px;
 }
-.Third .container .box .text {
+.Third .container .box .textt {
     display: flex;
     flex-direction: column;
     gap: 30px;
     width: 100%;
 }
-.Third .container .box .text span {
+.Third .container .box .textt span {
     color: red;
     z-index: 10;
     font-size: 20px;
     font-weight: bold;
     padding-top: 80px;
 }
-.Third .container .box .text h2 {
+.Third .container .box .textt h2 {
     max-width: 420px;
     font-size: 30px;
     color: white;
     z-index: 10;
     padding-bottom: 20px;
 }
-.Third .container .box .text a {
+.Third .container .box .textt a {
     padding-bottom: 150px;
     background-color: white;
     padding: 15px 25px;
@@ -199,7 +202,7 @@ header.sticky .container .box ul li .about {
     font-weight: bold;
     transition: .4s;
 }
-.Third .container .box .text a:hover {
+.Third .container .box .textt a:hover {
     background-color: var(--main-color);
     color: white;
 }
@@ -215,10 +218,10 @@ header.sticky .container .box ul li .about {
     .Third .container .box{
         flex-direction: column;
     }
-    .Third .container .box .text  {
+    .Third .container .box .textt  {
         align-items: center;
     }
-    .Third .container .box .text span{
+    .Third .container .box .textt span{
         padding-top: 0;
     }
 }
@@ -250,6 +253,7 @@ header.sticky .container .box ul li .about {
 .team .container .text-1 .txx h5 {
     font-size: 32px;
     padding-top: 18px;
+    color: var(--main-color-alt);
 }
 .team .container .text-1 a {
     color: white;
@@ -309,6 +313,7 @@ header.sticky .container .box ul li .about {
     font-size: 22px;
     padding: 20px 0 10px;
     transition: var(--main-transition);
+    color: var(--main-color-alt);
 }
 .team .container .imgs .card span {
     color: var(--text-color);
@@ -359,6 +364,7 @@ header.sticky .container .box ul li .about {
 .second .container .box .text h2 {
     font-size: 40px;
     padding: 25px 0;
+    color: var(--main-color-alt);
 }
 .second .container .box .text p {
     color: var(--text-color);
@@ -407,3 +413,57 @@ header.sticky .container .box ul li .about {
     }
 }
 /*!   End  Second  section  */
+
+
+
+
+@media (max-width:991px){
+    .aboutt .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutt .container .text {
+        text-align: center;
+    }
+    .Offer .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .Offer .container .text {
+        width: 75%;
+        text-align: center;
+    }
+    .Third .container .box .textt h2 {
+        text-align: center;
+    }
+    .team .container .text-1 .txx {
+        width: 75%;
+        text-align: center;
+    }
+}
+@media (max-width:767px){
+    .Offer .container .icon {
+        flex-direction: column;
+    }
+    .team .container .text-1 {
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    .Offer .container .text {
+        width: 75%;
+    }
+}
+@media (max-width:575px){
+    .aboutt .container .img {
+        max-width: 350px;
+    }
+    .aboutt .container .img img {
+        max-width: 350px;
+    }
+    .Offer .container .text {
+        width: 85%;
+    }
+}

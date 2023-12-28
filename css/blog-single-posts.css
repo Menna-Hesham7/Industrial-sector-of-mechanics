@@ -43,70 +43,75 @@ header.sticky .container .box ul li .plog,
 
 
 
-.blog-posts {
+.blog-single-posts {
     padding-top: var(--main-padding-top);
 }
-.blog-posts .container .ox-box {
+.blog-single-posts .container .ox-box {
     display: flex;
     gap: 50px;
 }
-.blog-posts .container .ox-box .box-1 {
+.blog-single-posts .container .ox-box .box-1 {
     display: flex;
     flex-direction: column;
     gap: 30px;
     width: 63% ;
 }
-.blog-posts .container .ox-box .box-1 ul {
+.blog-single-posts .container .ox-box .box-1 ul {
     display: flex;
     gap: 15px;
 }
-.blog-posts .container .ox-box .box-1 ul li {
+.blog-single-posts .container .ox-box .box-1 ul li {
     color: var(--text-color);
 }
-.blog-posts .container .ox-box .box-1 ul .actvv {
+.blog-single-posts .container .ox-box .box-1 ul:last-child li{
+    color: var(--main-color-alt);
+    font-weight: 600;
+}
+.blog-single-posts .container .ox-box .box-1 ul .actvv {
     color: var(--main-color);
 }
-.blog-posts .container .ox-box .box-1 ul li span {
+.blog-single-posts .container .ox-box .box-1 ul li span {
     color: var(--main-color);
     padding-left: 3px;
 }
-.blog-posts .container .ox-box .box-1 p {
+.blog-single-posts .container .ox-box .box-1 p {
     color: var(--text-color);
     font-size: 18px;
     line-height: 1.6;
 }
-.blog-posts .container .ox-box .box-1 .actve {
+.blog-single-posts .container .ox-box .box-1 .actve {
     font-weight: 500;
     font-size: 18px;
     line-height: 1.6;
     color: var(--main-color-alt);
     transition: .2s;
 }
-.blog-posts .container .ox-box .box-1 .actve:hover {
+.blog-single-posts .container .ox-box .box-1 .actve:hover {
     color: var(--main-color);
 }
-.blog-posts .container .ox-box .box-1 .doe {
+.blog-single-posts .container .ox-box .box-1 .doe {
     padding: 40px ;
     background-color: var(--section-background);
     border-radius: 10px;
 }
-.blog-posts .container .ox-box .box-1 .doe p {
+.blog-single-posts .container .ox-box .box-1 .doe p {
     font-size: 25px;
     color: var(--main-color-alt);
     padding-bottom: 25px ;
     font-family: cursive ;
 }
-.blog-posts .container .ox-box .box-1 .doe span{
+.blog-single-posts .container .ox-box .box-1 .doe span{
     padding-left: 5px ;
 } 
-.blog-posts .container .ox-box .box-1 h4 {
+.blog-single-posts .container .ox-box .box-1 h4 {
     font-size: 22px;
+    color: var(--main-color-alt);
 }
-.blog-posts .container .ox-box .box-1 .imggg {
+.blog-single-posts .container .ox-box .box-1 .imggg {
     display: flex;
     gap: 30px;
 }
-.blog-posts .container .ox-box .box-1 .imggg img {
+.blog-single-posts .container .ox-box .box-1 .imggg img {
     max-width: 400px;
     border-radius: 10px;
 }
@@ -116,31 +121,32 @@ header.sticky .container .box ul li .plog,
 
 
 
-.blog-posts .container .ox-box .box-2 .categories {
+.blog-single-posts .container .ox-box .box-2 .categories {
     background-color: #ebebeb ; 
     padding: 25px 20px ;
     border-radius: 10px;
     margin-bottom: 50px;
 }
-.blog-posts .container .ox-box .box-2 .categories h3 {
+.blog-single-posts .container .ox-box .box-2 .categories h3 {
     padding-bottom: 30px;
     font-size: 18px;
+    color: var(--main-color-alt);
 }
-.blog-posts .container .ox-box .box-2 .categories ul {
+.blog-single-posts .container .ox-box .box-2 .categories ul {
     display: flex;
     justify-content: space-between;
     padding-bottom: 25px;
     transition: var(--main-transition);
 }
-.blog-posts .container .ox-box .box-2 .categories ul:hover li {
+.blog-single-posts .container .ox-box .box-2 .categories ul:hover li {
     color: var(--main-color);
 }
-.blog-posts .container .ox-box .box-2 .categories ul li {
+.blog-single-posts .container .ox-box .box-2 .categories ul li {
     color: var(--text-color);
     transition: var(--main-transition);
     font-size: 15px;
 }
-.blog-posts .container .ox-box .box-2 .categories ul li i {
+.blog-single-posts .container .ox-box .box-2 .categories ul li i {
     color: var(--main-color);
     padding-right: 10px;
 }
@@ -149,108 +155,112 @@ header.sticky .container .box ul li .plog,
 
 
 
-.blog-posts .container .ox-box .box-2 .recent {
+.blog-single-posts .container .ox-box .box-2 .recent {
     background-color: #ebebeb ; 
     padding: 25px 20px ;
     border-radius: 10px;
     margin-bottom: 50px;
 }
-.blog-posts .container .ox-box .box-2 .recent h3 {
+.blog-single-posts .container .ox-box .box-2 .recent h3 {
     padding-bottom: 30px;
     font-size: 18px;
+    color: var(--main-color-alt);
 }
-.blog-posts .container .ox-box .box-2 .recent ul {
+.blog-single-posts .container .ox-box .box-2 .recent ul {
     display: flex;
     gap: 12px;
     padding-bottom: 20px;
 }
-.blog-posts .container .ox-box .box-2 .recent ul li img {
+.blog-single-posts .container .ox-box .box-2 .recent ul li img {
     width: 100px;
     height: 70px;
 }
-.blog-posts .container .ox-box .box-2 .recent ul li p {
+.blog-single-posts .container .ox-box .box-2 .recent ul li p {
     font-size: 15px;
     padding-bottom: 5px;
     font-weight: 600;
+    color: var(--main-color-alt);
 }
-.blog-posts .container .ox-box .box-2 .recent ul li:hover {
+.blog-single-posts .container .ox-box .box-2 .recent ul li:hover {
     color: var(--main-color);
 }
-.blog-posts .container .ox-box .box-2 .recent ul li span{
+.blog-single-posts .container .ox-box .box-2 .recent ul li span{
     color: var(--text-color);
     font-size: 14px;
     font-weight: 500;
 }
 
 
-
-.blog-posts .container .ox-box .box-2 .Instagram {
+.blog-single-posts .container .ox-box .box-2 .Instagram {
     background-color: #ebebeb ; 
     padding: 25px 20px ;
     border-radius: 10px;
     margin-bottom: 50px;
 } 
-.blog-posts .container .ox-box .box-2 .Instagram h3 {
+.blog-single-posts .container .ox-box .box-2 .Instagram h3 {
     padding-bottom: 30px;
     font-size: 18px;
+    color: var(--main-color-alt);
 } 
-.blog-posts .container .ox-box .box-2 .Instagram ul {
+.blog-single-posts .container .ox-box .box-2 .Instagram ul {
     display: flex;
     gap: 10px;
     padding-bottom: 25px ;
 } 
-.blog-posts .container .ox-box .box-2 .Instagram ul li img {
+.blog-single-posts .container .ox-box .box-2 .Instagram ul li img {
     width: 100px;
     height: 70px;
 }
 
 
 
-.blog-posts .container .ox-box .box-2 .tage {
+.blog-single-posts .container .ox-box .box-2 .tage {
     background-color: #ebebeb ; 
     padding: 30px 20px ;
     border-radius: 10px;
     margin-bottom: 50px;
 }
-.blog-posts .container .ox-box .box-2 .tage h3 {
+.blog-single-posts .container .ox-box .box-2 .tage h3 {
     padding-bottom: 30px;
     font-size: 18px;
+    color: var(--main-color-alt);
 }
-.blog-posts .container .ox-box .box-2 .tage ul {
+.blog-single-posts .container .ox-box .box-2 .tage ul {
     display: flex;
     gap: 15px;
 }
-.blog-posts .container .ox-box .box-2 .tage ul:not(:last-child){
+.blog-single-posts .container .ox-box .box-2 .tage ul:not(:last-child){
     padding-bottom:30px ;
 }
-.blog-posts .container .ox-box .box-2 .tage ul li a{
+.blog-single-posts .container .ox-box .box-2 .tage ul li a{
     width: fit-content;
     background-color: var(--section-background);
-    color: black;
-    padding: 10px 15px ;
+    color: var(--main-color-alt);
+        padding: 10px 15px ;
     border-radius: 5px;
     font-size: 15px;
     font-weight: 500;
     transition: .2s;
 }
-.blog-posts .container .ox-box .box-2 .tage ul li:hover a {
+.blog-single-posts .container .ox-box .box-2 .tage ul li:hover a {
     background-color: var(--main-color);
     color: white;
 }
 
 
 
-.blog-posts .container .ox-box .box-2 .Advertisement {
+.blog-single-posts .container .ox-box .box-2 .Advertisement {
     background-color: #ebebeb ; 
     padding: 30px 20px ;
     border-radius: 10px;
     margin-bottom: 50px;
 }
-.blog-posts .container .ox-box .box-2 .Advertisement h3 {
+.blog-single-posts .container .ox-box .box-2 .Advertisement h3 {
     padding-bottom: 30px;
     font-size: 18px;
+    color: var(--main-color-alt);
 }
-.blog-posts .container .ox-box .box-2 .Advertisement img{
+.blog-single-posts .container .ox-box .box-2 .Advertisement img{
     width: 100%;
     border-radius: 5px;
 }
@@ -298,6 +308,7 @@ header.sticky .container .box ul li .plog,
 
 .comments h4 {
     padding-bottom: 30px;
+    color: var(--main-color-alt);
 }
 .comments .box {
     display: flex;
@@ -316,6 +327,7 @@ header.sticky .container .box ul li .plog,
 .comments .box .auto h6 {
     font-size: 16px;
     padding-bottom: 5px;
+    color: var(--main-color-alt);
 }
 .comments .box .auto .span {
     font-size: 12px;
@@ -346,4 +358,42 @@ header.sticky .container .box ul li .plog,
 
 
 
+
+
+@media (max-width:1200px){
+    .blog-single-posts .container .ox-box .box-1 {
+        width: 55%;
+    }
+}
+@media (max-width:991px){
+    .blog-single-posts .container .ox-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog-single-posts .container .ox-box .box-1 {
+        width: 100%;
+    }
+}
+@media (max-width:767px){
+    .blog-single-posts .container .ox-box .box-1 .imggg {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:575px){
+    .blog-single-posts .container .ox-box .box-1 .doe p {
+        font-size: 20px;
+    }
+    .blog-single-posts .container .ox-box .box-1 .imggg img {
+        max-width: 350px;
+    }
+    .lorem ul li {
+        font-size: 12px;
+    }
+    .comments .box {
+        gap: 10px;
+        flex-direction: column;
+        padding-bottom: 23px;
+    }
+}
 

@@ -12,6 +12,12 @@
 }
 
 
+@media (max-width:991px){}
+@media (max-width:767px){}
+
+
+
+
 .email{
     background-color: var(--section-background);
     padding-bottom: var(--main-padding-bottom);
@@ -374,4 +380,58 @@
     background-color: #e0e0e0de;
     padding: 10px;
     border-radius: 50%;
+}
+
+
+
+
+
+
+@media (max-width:991px){
+    .email .container {
+        width: 100%;
+    }
+}
+@media (max-width:575px){
+    .email .container .services p {
+        font-size: 27px;
+        width: 100%;
+    }
+    .email .container .about {
+        gap: 0px;
+        flex-direction: column;
+    }
+    .email .container .about .us {
+        width: 100%;
+    }
+    .email .container .about p {
+        width: 100%;
+    }
+    .email .container .choose {
+        flex-direction: column;
+    }
+    .email .container .choose img {
+        width: 100%;
+    }
+    .email .container .choose .text {
+        width: 100%;
+        text-align: center;
+    }
+    .email .container .offer {
+        text-align: center;
+    }
+    .email .container .offer h5 {
+        font-size: 22px ;
+        width: 100%;
+    }
+    .email .container .start h4 {
+        width: 100%;
+    }
+    .email .container .end {
+        padding: 50px 0px 50px;
+    }
+    .email .container .end ul {
+        font-size: 10px;
+        gap: 5px;
+    }
 }

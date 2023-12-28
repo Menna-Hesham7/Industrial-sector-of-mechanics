@@ -13,6 +13,9 @@
 
 
 .error {
+    height: 100%;
+    display: flex;
+    align-items: center;
     padding-top: var(--main-padding-top) ;
     padding-bottom: 50px;
     background-color: var(--section-background);
@@ -27,6 +30,7 @@
     font-size: 140px;
     margin: 0;
     padding-bottom: 10px;
+    color: var(--main-color-alt);
 }
 .error .container h1 i {
     color: var(--main-color);
@@ -35,6 +39,7 @@
 .error .container h3{
     font-size: 25px;
     padding-bottom: 30px;
+    color: var(--main-color-alt);
 }
 .error .container p {
     line-height: 1.4;
@@ -86,4 +91,23 @@
 .error .container a i {
     padding-right: 10px;
     font-weight: 900;
+}
+
+
+
+
+
+@media (max-width:991px){
+    .error .container {
+        width: 90%;
+    }
+    .error .container h1 {
+        font-size: 125px;
+    }
+}
+@media (max-width:767px){
+    .error .container {
+        width: 100%;
+    }
+
 }
