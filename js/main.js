@@ -29,22 +29,22 @@ function check(){
     <div class="box">
         <h1 class="logo"><a href="#">Sectt<i class="fa-solid fa-gauge-high"></i>re</a></h1>
         <ul class="m123" id="nav">
-            <li><a href="/index.html" class="actve">Home</a></li>
-            <li><a href="/about.html" class="about">About</a></li>
+            <li><a href="./index.html" class="actve">Home</a></li>
+            <li><a href="./about.html" class="about">About</a></li>
             <li><a href="" class="plog" >Blog<i class="fa-solid fa-caret-up fa-rotate-180"></i></a>
                 <ul>
-                    <li><a  href="/blog-posts.html"  class="posts"  >Blog Posts</a></li>
-                    <li><a href="/blog-single-post.html"  class="single"  >Blog Single Post</a></li>
+                    <li><a  href="./blog-posts.html"  class="posts"  >Blog Posts</a></li>
+                    <li><a href="./blog-single-post.html"  class="single"  >Blog Single Post</a></li>
                 </ul>
             </li>
             <li><a href="" class="Pages" >Pages<i class="fa-solid fa-caret-up fa-rotate-180"></i></a>
                 <ul>
-                    <li><a href="/services.html" class="services">Services</a></li>
-                    <li><a href="/error.html">404 Pade</a></li>
-                    <li><a href="/email.html">Email Pade</a></li>
+                    <li><a href="./services.html" class="services">Services</a></li>
+                    <li><a href="./error.html">404 Pade</a></li>
+                    <li><a href="./email.html">Email Pade</a></li>
                 </ul>
             </li>
-            <li><a href="/contact.html"  class="contact" >Contact</a></li>
+            <li><a href="./contact.html"  class="contact" >Contact</a></li>
         </ul>
     
         <div class="buttons">
