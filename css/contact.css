@@ -217,3 +217,28 @@ header.sticky .container .box ul li .contact {
         text-align: center;
     }
 }
+
+
+
+
+
+@media (prefers-color-scheme:light) {
+    :root {
+        --main-color: #ff0000 ;
+        --main-color-alt: #000000 ;
+        --section-background: #f7f7f7;
+        --text-color: #868e96 ;
+        --header-background: #ffffff ;
+        --header-text: #ffffff ;
+    }
+}
+@media (prefers-color-scheme:dark)  {
+    :root {
+        --main-color: #ff0000 ;
+        --main-color-alt: #ffffff ;
+        --section-background: #121212;
+        --text-color: #bbbbbb ;
+        --header-background: #000000 ;
+        --header-text: #ffffff ;
+    }
+}

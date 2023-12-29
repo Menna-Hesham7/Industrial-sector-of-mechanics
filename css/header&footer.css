@@ -37,7 +37,7 @@ body {
     scroll-behavior: smooth;
 }
 body {
-    background: #ffffff;
+    background: var(--header-background);
     font-size: 14px;
     color: #000;
     margin: 0;
@@ -100,7 +100,7 @@ header .container .box{
 }
 header.sticky  {
     background-color: var(--header-background);
-    border: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
 }
 header.sticky .box{
     padding-top: 5px ;
@@ -337,6 +337,22 @@ header.sticky .container .box .buttons .signup {
         font-size: 20px;
     }
 }
+@media (max-width:500px) {
+    header .container .box .buttons {
+        gap: 5px;
+    }
+    header .container .box .buttons .login {
+        margin-right: 0;
+    }
+    header .container .box .buttons .login{
+        padding: 8px;
+        font-size: 11px;
+    }
+    header .container .box .buttons .signup {
+        padding: 8px;
+        font-size: 11px;
+    }
+}
 /*! END HEADER *
 
 
@@ -497,14 +513,14 @@ footer .container .box .imgess .links ul li i:hover {
         --header-text: #ffffff ;
     }
 }
-@media ( prefers-color-scheme:dark ) {
+@media (prefers-color-scheme:dark)  {
     :root {
         --main-color: #ff0000 ;
         --main-color-alt: #ffffff ;
-        --section-background: #181818;
-        --text-color: #dbdbdb ;
-        --header-background: #232020 ;
-        --header-text: #000000 ;
+        --section-background: #121212;
+        --text-color: #bbbbbb ;
+        --header-background: #000000 ;
+        --header-text: #ffffff ;
     }
 }
 

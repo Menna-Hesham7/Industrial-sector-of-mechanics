@@ -17,6 +17,9 @@ header.sticky .container .box ul li .actve {
 header.sticky .container .box ul li .Pages {
     color: var(--main-color);
 }
+header.sticky .container .box ul li .Pages i {
+    color: var(--main-color);
+}
 .landing-22 {
     background-image: url(../images/landing-for-min.jpg);
     background-size: cover;
@@ -283,5 +286,32 @@ header.sticky .container .box ul li .Pages {
     }
     .amazing .container .pp {
         width: 100%;
+    }
+}
+
+
+
+
+
+
+
+@media (prefers-color-scheme:light) {
+    :root {
+        --main-color: #ff0000 ;
+        --main-color-alt: #000000 ;
+        --section-background: #f7f7f7;
+        --text-color: #868e96 ;
+        --header-background: #ffffff ;
+        --header-text: #ffffff ;
+    }
+}
+@media (prefers-color-scheme:dark)  {
+    :root {
+        --main-color: #ff0000 ;
+        --main-color-alt: #ffffff ;
+        --section-background: #121212;
+        --text-color: #bbbbbb ;
+        --header-background: #000000 ;
+        --header-text: #ffffff ;
     }
 }

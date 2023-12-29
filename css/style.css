@@ -32,7 +32,9 @@ swiper-slide {
     padding-bottom: 200px;
 }
 /*!  Stert  LANDING  */
-
+body {
+    background-color: var(--header-background);
+}
 .landing  {
     background-position: center;
     background-size: cover;
@@ -262,6 +264,7 @@ swiper-slide {
     gap: 10px;
     width: 370px;
     height: 250px;
+    border: 1px solid #616161;
 }
 .business .container .box .images .box:hover  {
     transform: scale(5px);
@@ -355,6 +358,7 @@ h1{
 .second .container .box .text h2 {
     font-size: 40px;
     padding: 25px 0;
+    color: var(--main-color-alt);
 }
 .second .container .box .text p {
     color: var(--text-color);
@@ -556,6 +560,7 @@ h1{
     margin-top: 15px;
     font-size: 35px;
     margin-bottom: 40px;
+    color: var(--main-color-alt);
 }
 .fourth .container .box .text h4 {
     font-size: 22px;
@@ -580,15 +585,19 @@ h1{
     border-bottom: 1px solid #ccc;
     transition: .4s;
 }
+.fourth .container .box ul li i {
+    color: var(--main-color-alt);
+}
 .fourth .container .box ul li:first-child{
     border-top: 1px solid #ccc;
+    color: var(--main-color-alt);
 }
 .fourth .container .box ul li:hover a,
 .fourth .container .box ul li:hover i{
     color: var(--main-color);
 }
 .fourth .container .box ul li a  {
-    color: black;
+    color: var(--main-color-alt);
     font-size: 16px;
     font-weight: bold;
     transition: .3s;
@@ -825,6 +834,7 @@ h1{
     padding-top: 15px;
     font-size: 35px;
     font-weight: bold;
+    color: var(--main-color-alt);
 }
 .Seventh .container .box .text p {
     font-size: 17px;
@@ -935,10 +945,10 @@ h1{
 @media (prefers-color-scheme:dark)  {
     :root {
         --main-color: #ff0000 ;
-        --main-color-alt: #000000 ;
-        --section-background: #f7f7f7;
-        --text-color: #868e96 ;
-        --header-background: #ffffff ;
+        --main-color-alt: #ffffff ;
+        --section-background: #121212;
+        --text-color: #bbbbbb ;
+        --header-background: #000000 ;
         --header-text: #ffffff ;
     }
 }
